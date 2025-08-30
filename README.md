@@ -7,7 +7,7 @@ hehe
 
 #### Appearance
 - [Komorebi](https://github.com/LGUG2Z/komorebi)
-- [YASB](https://github.com/amnweb/yasb) |
+- [YASB](https://github.com/amnweb/yasb) | [config files](YASB_config)
 - [ButteryTaskbar](https://github.com/LuisThiamNye/ButteryTaskbar2)
 
 #### Package Manager / Utils
@@ -18,7 +18,7 @@ hehe
 ## Terminal
 
 - [Ghostty](https://ghostty.org)
-- [WezTerm](https://wezterm.org) | 
+- [WezTerm](https://wezterm.org) | [config files](wezterm_config)
 
 ### zsh configuration
 
