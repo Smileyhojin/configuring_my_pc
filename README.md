@@ -42,6 +42,8 @@ A collection of the components/packages to configure my PC, in terms of appearan
 #### useful packages
 
 - [genact](https://github.com/svenstaro/genact)
+- [nyancat](https://github.com/klange/nyancat)
+- [neofetch](https://github.com/dylanaraps/neofetch)
 
 ## Code Editing
 
