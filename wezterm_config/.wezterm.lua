@@ -33,15 +33,19 @@ config.color_scheme = 'Tokyo Night Storm'
 -- keymaps
 config.keys = {
     {
-        key = "h",
+        key = "s",
         mods = "CTRL|SHIFT",
         action = wezterm.action.SplitPane({
             direction = "Right",
             size = { Percent = 50 },
         }),
     },
-    { key = "9", mods = "CTRL", action = act.PaneSelect },
-    { key = "L", mods = "CTRL", action = act.ShowDebugOverlay },
+    {
+        key = "v",
+        mods = "CTRL|SHIFT",
+        action = wezterm.action.SplitVertical({}),
+    },
+    { key = "0", mods = "CTRL", action = act.PaneSelect },
 }
 
 config.window_decorations = "NONE | RESIZE"
