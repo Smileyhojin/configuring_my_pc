@@ -23,14 +23,10 @@ A collection of the components/packages to configure my PC, in terms of appearan
 - [WezTerm](https://wezterm.org) | [config files](wezterm_config)
 - [nerd fonts](https://www.nerdfonts.com/font-downloads) | JetBrainsMono, MesloLGS, CasKaydiaCove ...
 
-#### fish/zsh configuration
+#### fish configuration
 
 - [starship](https://starship.rs/)
-- [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
-- [powerlevel10k](https://github.com/romkatv/powerlevel10k)
-- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-- [zsh-abbr](https://github.com/olets/zsh-abbr)
+- Config files: 
 
 #### necessary packages
 
