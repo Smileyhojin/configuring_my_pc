@@ -7,15 +7,21 @@ A collection of the components/packages to configure my PC, in terms of appearan
 ## Windows
 
 #### Appearance
+
 - [Komorebi](https://github.com/LGUG2Z/komorebi)
 - [YASB](https://github.com/amnweb/yasb) | [config files](YASB_config)
 - [ButteryTaskbar](https://github.com/LuisThiamNye/ButteryTaskbar2)
 - [Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine/)
 
 #### Package Manager / Utils
+
 - [Chocolatey](https://chocolatey.org/)
 - [Scoop](https://scoop.sh/)
 - [PowerToys](https://github.com/microsoft/PowerToys)
+
+## Linux
+
+- Arch Linux
 
 ## Terminal
 
@@ -26,7 +32,7 @@ A collection of the components/packages to configure my PC, in terms of appearan
 #### fish configuration
 
 - [starship](https://starship.rs/)
-- Config files: 
+- [fish configuration files](fish_config) | Place `abbrs.fish` in `~/.config/fish/conf.d/`, and `eza.fish` in `~/.config/fish/functions`
 
 #### necessary packages
 
@@ -39,7 +45,7 @@ A collection of the components/packages to configure my PC, in terms of appearan
 
 - [genact](https://github.com/svenstaro/genact)
 - [nyancat](https://github.com/klange/nyancat)
-- [neofetch](https://github.com/dylanaraps/neofetch)
+- [neofetch](https://github.com/dylanaraps/neofetch) or fastfetch
 
 ## Code Editing
 
