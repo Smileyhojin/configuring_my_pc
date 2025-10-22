@@ -38,13 +38,6 @@
     },
     "vim_mode": true,
     "format_on_save": "on",
-//    "ssh_connections": [
-//    {
-//      "host": "asmp-hjyoo",
-//      "args": [],
-//      "projects": []
-//    }
-  ],
     "languages": {
         "JSON": {
             "tab_size": 4,
