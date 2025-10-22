@@ -45,7 +45,7 @@ A collection of the components/packages to configure my PC, in terms of appearan
 
 - [genact](https://github.com/svenstaro/genact)
 - [nyancat](https://github.com/klange/nyancat)
-- [neofetch](https://github.com/dylanaraps/neofetch) or fastfetch
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch) or [neofetch](https://github.com/dylanaraps/neofetch)
 
 ## Code Editing
 
