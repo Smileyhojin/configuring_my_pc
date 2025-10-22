@@ -1,0 +1,108 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+    "icon_theme": "Zed (Default)",
+    "git_panel": {
+        "dock": "left"
+    },
+    "agent": {
+        "always_allow_tool_actions": true,
+        "default_model": {
+            "provider": "copilot_chat",
+            "model": "claude-sonnet-4"
+        }
+    },
+    "terminal": {
+        "dock": "bottom",
+        "font_size": 15,
+        "font_family": "CaskaydiaCove Nerd Font",
+        "toolbar": {
+            "breadcrumbs": false
+        },
+        "line_height": "comfortable"
+    },
+    "features": {
+        "edit_prediction_provider": "zed"
+    },
+    "scrollbar": {
+        "show": "never"
+    },
+    "minimap": {
+        "show": "always"
+    },
+    "vim_mode": true,
+    "format_on_save": "on",
+//    "ssh_connections": [
+//    {
+//      "host": "asmp-hjyoo",
+//      "args": [],
+//      "projects": []
+//    }
+  ],
+    "languages": {
+        "JSON": {
+            "tab_size": 4,
+            "soft_wrap": "editor_width"
+        },
+        "JSONC": {
+            "tab_size": 4,
+            "soft_wrap": "editor_width"
+        },
+        "Markdown": {
+            "soft_wrap": "editor_width"
+        },
+        "LaTeX": {
+            "soft_wrap": "editor_width"
+        },
+        "Plain Text": {
+            "soft_wrap": "editor_width"
+        },
+        "TOML": {
+            "soft_wrap": "editor_width"
+        },
+        "Rust": {
+            "inlay_hints": {
+                "enabled": true
+            }
+        }
+    },
+    "lsp": {
+        "rust-analyzer": {
+            "initialization_options": {
+                "check": {
+                    "command": "clippy"
+                },
+                "inlayHints": {
+                    "maxLength": null,
+                    "lifetimeElisionHints": {
+                        "enable": "skip_trivial",
+                        "useParameterNames": true
+                    },
+                    "closureReturnTypeHints": {
+                        "enable": "always"
+                    }
+                }
+            }
+        }
+    },
+    "autosave": "on_focus_change",
+    "ui_font_size": 16,
+    "buffer_font_size": 16,
+    "buffer_font_family": "CaskaydiaCove Nerd Font Mono",
+    "theme": {
+        "mode": "system",
+        "light": "Catppuccin Macchiato (Blur) [Heavy]",
+        "dark": "One Dark"
+    },
+    "experimental.theme_overrides": {
+        "scrollbar.thumb.border": "#ffffff00",
+        "background": "#24273aff" // for disabling opacity
+    }
+}
+

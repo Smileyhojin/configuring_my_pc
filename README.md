@@ -49,7 +49,6 @@ A collection of the components/packages to configure my PC, in terms of appearan
 
 ## Code Editing
 
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Zed](https://zed.dev/)
+- [Zed](https://zed.dev/) | [config files](zed_config)
 - [Neovim](https://github.com/neovim/neovim)
 - [LazyVim](https://github.com/LazyVim/LazyVim)
