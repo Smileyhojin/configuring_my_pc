@@ -21,7 +21,7 @@ A collection of the components/packages to configure my PC, in terms of appearan
 
 ## Linux
 
-- Arch Linux
+- [EndeavourOS](https://endeavouros.com/)
 
 ## Terminal
 
@@ -39,10 +39,10 @@ A collection of the components/packages to configure my PC, in terms of appearan
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
 - [fzf](https://github.com/junegunn/fzf)
 - [eza](https://github.com/eza-community/eza)
-- [midnight commander](https://midnight-commander.org/)
 
 #### useful packages
 
+- [midnight commander](https://midnight-commander.org/)
 - [genact](https://github.com/svenstaro/genact)
 - [nyancat](https://github.com/klange/nyancat)
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch) or [neofetch](https://github.com/dylanaraps/neofetch)
@@ -50,5 +50,4 @@ A collection of the components/packages to configure my PC, in terms of appearan
 ## Code Editing
 
 - [Zed](https://zed.dev/) | [config files](zed_config)
-- [Neovim](https://github.com/neovim/neovim)
-- [LazyVim](https://github.com/LazyVim/LazyVim)
+- [Neovim](https://github.com/neovim/neovim) | [LazyVim](https://github.com/LazyVim/LazyVim)
