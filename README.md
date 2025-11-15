@@ -1,6 +1,6 @@
 # configuring_my_pc
 
-A collection of the components/packages to configure my PC, in terms of appearance, development environments, utility, etc.
+Collection of components/packages to configure my PC, in terms of appearance, development environments, utility, etc.
 
 ---
 
@@ -34,20 +34,21 @@ A collection of the components/packages to configure my PC, in terms of appearan
 - [starship](https://starship.rs/)
 - [fish configuration files](fish_config) | Place `abbrs.fish` in `~/.config/fish/conf.d/`, and `eza.fish` in `~/.config/fish/functions`
 
-#### necessary packages
+#### helpful packages
 
-- [zoxide](https://github.com/ajeetdsouza/zoxide)
-- [fzf](https://github.com/junegunn/fzf)
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch) or [neofetch](https://github.com/dylanaraps/neofetch)
+- [zoxide](https://github.com/ajeetdsouza/zoxide), [fzf](https://github.com/junegunn/fzf)
 - [eza](https://github.com/eza-community/eza)
+- [logiops](https://github.com/PixlOne/logiops) | [config file](logiops_config)
 
 #### useful packages
 
 - [midnight commander](https://midnight-commander.org/)
 - [genact](https://github.com/svenstaro/genact)
 - [nyancat](https://github.com/klange/nyancat)
-- [fastfetch](https://github.com/fastfetch-cli/fastfetch) or [neofetch](https://github.com/dylanaraps/neofetch)
 
 ## Code Editing
 
 - [Zed](https://zed.dev/) | [config files](zed_config)
-- [Neovim](https://github.com/neovim/neovim) | [LazyVim](https://github.com/LazyVim/LazyVim)
+- [Neovim](https://github.com/neovim/neovim)
+- [LazyVim](https://github.com/LazyVim/LazyVim)
