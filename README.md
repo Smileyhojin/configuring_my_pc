@@ -31,7 +31,7 @@ Collection of components/packages to configure my PC, in terms of appearance, de
 
 #### fish configuration
 
-- [starship](https://starship.rs/)
+- [starship](https://starship.rs/) for fancy prompts
 - [fish configuration files](fish_config) | Place `abbrs.fish` in `~/.config/fish/conf.d/`, and `eza.fish` in `~/.config/fish/functions`
 
 #### helpful packages
@@ -39,9 +39,10 @@ Collection of components/packages to configure my PC, in terms of appearance, de
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch) or [neofetch](https://github.com/dylanaraps/neofetch)
 - [zoxide](https://github.com/ajeetdsouza/zoxide), [fzf](https://github.com/junegunn/fzf)
 - [eza](https://github.com/eza-community/eza)
+- [zellij](https://github.com/zellij-org/zellij)
 - [logiops](https://github.com/PixlOne/logiops) | [config file](logiops_config)
 
-#### useful packages
+#### good to have packages
 
 - [midnight commander](https://midnight-commander.org/)
 - [genact](https://github.com/svenstaro/genact)
