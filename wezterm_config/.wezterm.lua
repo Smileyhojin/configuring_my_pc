@@ -2,50 +2,50 @@ local wezterm = require("wezterm")
 local act = wezterm.action
 local config = wezterm.config_builder()
 
--- config.default_domain = 'WSL:Ubuntu'
--- config.front_end = "OpenGL"
 config.max_fps = 165
 config.animation_fps = 165
 config.cursor_blink_rate = 500
 config.term = "xterm-256color"
 
-config.font = wezterm.font("CaskaydiaCove NF")
+-- config.font = wezterm.font("CaskaydiaCove NF")
 config.cell_width = 0.9
+config.line_height = 1.05
 
-config.window_background_opacity = 0.95
+config.window_background_opacity = 0.97
+config.kde_window_background_blur = true
 config.prefer_egl = true
-config.font_size = 16.0
+config.font_size = 22.0
 
 config.window_padding = {
-    left = 10,
-    right = 10,
-    top = 10,
-    bottom = 10,
+	left = 10,
+	right = 10,
+	top = 10,
+	bottom = 10,
 }
 
 -- tabs
-config.hide_tab_bar_if_only_one_tab = false
+config.hide_tab_bar_if_only_one_tab = true
 config.use_fancy_tab_bar = false
 
 -- color scheme
-config.color_scheme = 'Tokyo Night Storm'
+config.color_scheme = "Tokyo Night Moon"
 
 -- keymaps
 config.keys = {
-    {
-        key = "s",
-        mods = "CTRL|SHIFT",
-        action = wezterm.action.SplitPane({
-            direction = "Right",
-            size = { Percent = 50 },
-        }),
-    },
-    {
-        key = "v",
-        mods = "CTRL|SHIFT",
-        action = wezterm.action.SplitVertical({}),
-    },
-    { key = "0", mods = "CTRL", action = act.PaneSelect },
+	{
+		key = "s",
+		mods = "ALT|SHIFT",
+		action = wezterm.action.SplitPane({
+			direction = "Right",
+			size = { Percent = 50 },
+		}),
+	},
+	{
+		key = "v",
+		mods = "ALT|SHIFT",
+		action = wezterm.action.SplitVertical({}),
+	},
+	{ key = "0", mods = "CTRL", action = act.PaneSelect },
 }
 
 config.window_decorations = "NONE | RESIZE"
